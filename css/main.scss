@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Montserrat';
+    height: 100vh;
+}
+section{
+    height: 100vh;
+    text-align: center;
+}
+.box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+.dark{
+    text-align: left;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    position: relative;
+}
+img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    object-fit: cover;
+    z-index: 0;
+}
+.content{
+    padding:9em 5em;
+    z-index: 1;
+    position: relative;
+
+    h2{
+        font-size: 5em;
+        margin-bottom: 0;
+    }
+    p{
+        font-size: 1.6em;
+    }
+}
